@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="quote.css" />
+    <title>Quote App</title>
+  </head>
+  <body>
+    <header>
+      <label for="dark-mode-switch">Dark Mode</label>
+      <input type="checkbox" id="dark-mode-switch" />
+    </header>
+
+    <div class="container">
+      <h1>Quote Demo App</h1>
+      <div class="category">
+        <select id="categorySelect">
+          <option value="" selected disabled>Select an option</option>
+          <option value="Science">Science</option>
+          <option value="Motivational">Motivational</option>
+        </select>
+      </div>
+
+      <div class="quote">
+        <p id="quoteSentence">..............</p>
+      </div>
+      <div class="font-controls">
+        <label aria-busy="true">Font Size : </label>
+        <input
+          type="range"
+          id="font-size-input"
+          min="10"
+          max="50"
+          step="1"
+          value="25"
+        />
+      </div>
+      <br />
+      <div class="navigation">
+        <button id="prevBtn">Previous</button>
+        <button id="nextBtn">Next</button>
+        <button id="randBtn">Random</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

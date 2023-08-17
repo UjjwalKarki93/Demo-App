@@ -1,0 +1,55 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 80vh;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  background-color: white;
+}
+
+.font-controls {
+  margin-top: 1rem;
+}
+
+.categorySelector {
+  margin-top: 2rem;
+}
+
+/* Add additional styling as needed */
+
+.dark-mode {
+  background-color: #333;
+  color: white;
+}
+
+#quoteSentence {
+  font-size: larger;
+  font-style: italic;
+  color: blue;
+}
+
+/* Add responsive styles for mobile */
+
+@media (max-width: 768px) {
+  /* Adjust styles for mobile */
+}
